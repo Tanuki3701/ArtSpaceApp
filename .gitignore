@@ -1,0 +1,23 @@
+# 忽略 IDE 相關檔案
+.idea/
+*.iml
+
+# 忽略 Gradle 相關檔案
+.gradle
+local.properties
+
+# 忽略構建輸出
+/build
+/captures
+
+# 忽略原生編譯檔案 (如使用 NDK)
+.externalNativeBuild
+.cxx
+
+# 忽略 APK 和相關檔案
+*.apk
+*.ap_
+*.aab
+
+# 忽略 Mac 系統檔案 (若適用)
+.DS_Store
